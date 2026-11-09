@@ -1,16 +1,16 @@
-#Tiny Race
+# Tiny Race
 
 open --> index.html(tiny-race)
 
         press A to add a racer   ...   press D to delete a racer
 
 
-|Skill:|Choice:|   Location:   |    Test:    |     Expected result: |
-               (all sketch.js)
-|Read    |r3| racer loop      | Run the race | Racers are read from the list|
-|Update  |u3| racer movement  | Run the race | Each racer moves forwards    |
-|Add     |a1| keyPressed      | Press A      | A new racer gets added       |
-|Remove  |d1| keyPressed      | Press D      | The last racer is removed    |
+| Skill | Choice | Location | Test | Expected result |
+|---|---|---|---|---|
+| Read | R3 | sketch.js - Racer loop | Run the race | Racers are read from the list |
+| Update | U3 | sketch.js - Move each racer | Run the race | Each racer moves forwards |
+| Add | A1 | sketch.js - add | Press A | A new racer gets added |
+| Remove | D1 | sketch.js - remove | Press D | The last racer is removed |
 
 
 .length is used in sketch.js in the racer loop, racer count, and empty list check.
