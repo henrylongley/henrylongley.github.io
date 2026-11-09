@@ -9,7 +9,8 @@ function setup() {
 
 function draw() {
   background(240);
-  text("Racers: " + racerXs.length, 10, 20);
+  text("Racers: " + racerXs.length, 10, 15);
+  text("A = add racer   D = remove racer", 10, 27)
   line(finishX, 0, finishX, height);
   for (let i = 0; i < racerXs.length; i++) {
     let y = startY + yStep * i;
